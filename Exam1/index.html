@@ -4,8 +4,218 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exam</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <h1>Assignment</h1>
+  <!--NavBar-->
+  <nav class="navbar fixed-top navbar-expand-lg bg-danger shadow" data-bs-theme="dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#NavMenuPanel">
+        <span class="navbar-toggler-icon"></span>
+        <a href="#" class="navbar-brand">FRUITS NAVBAR</a>
+
+      </button>
+      <div class="collapse navbar-collapse" id="NavMenuPanel">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Items</a>
+          </li>
+        </ul>
+
+        <div>
+          <form class="d-flex">
+            <input type="text" class="form-control">
+            <button class="btn btn-warning mx-2">Search</button>
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+
+  </nav>
+    <h1>Assignment1 by Lujain Delwar</h1><br>
+    <!--Buttons-->
+    <div class="container-fluid">
+    <div class="row">
+    <div class="col-12 text-start">
+    <h2>My Favorite Fruits</h2> 
+    <button type="button" class="btn btn-primary">Apple</button>
+    <button type="submit" class="btn btn-secondary">Bananas</button>
+    <button  class="btn btn-success">Grapes</button>
+    <button class="btn btn-danger">Pomegranate</button>
+    <button  class="btn btn-warning">Mangoes</button>
+    <button class="btn btn-info">Lichee</button>
+    <button  class="btn btn-light">Jackfruit</button>
+    <button  class="btn btn-dark">Cherries</button>
+    <button type="button" class="btn btn-outline-primary">Orange</button>
+    <button type="button" class="btn btn-sm btn-outline btn-info">Small Fruit Button</button>
+    </div>
+</div>
+</div>
+
+<!--CARD-->
+<div class="container-fluid">
+<div class="row">
+<div class="col-6 p-6 text-start">
+    <h2>Fruit Card</h2>
+ <div class="card w-50">
+  <img class="card-img-top" src="https://placehold.co/600x400/red/white">
+     <div class="card-body">
+        <h5 class="card-title">Favorite Fruit</h5>
+        <p class="card-text">I like apples as it keeps a doctor away</p>
+        <a href="#" class="btn btn-danger">Mention your favorites</a>
+    
+    </div>
+    
+</div>
+</div>
+
+<!--The Form-->
+<div class="col-6">
+    <h2>Fruit Form</h2>
+    <form style="border:1px solid black">
+        <div class="form-group">
+          <label>Email address</label>
+          <input type="email" class="form-control" >
+        </div>
+        <div class="form-group">
+          <label >Your favorite fruit</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>Apple</option>
+            <option>Bananas</option>
+            <option>Grapes</option>
+            <option>Mangoes</option>
+            <option>Oranges</option>
+            <option>Watermelon</option>
+          </select>
+        </div>
+    <div class="form-group">
+    <label >Why is it your favorite?</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  </form>
+       
+</div>
+</div>
+</div>
+
+<!--Dropdown-->
+<div class="container-fluid">
+  <div class="row">
+  <div class="col-6 p-6 text-start">
+    <h2>Dropdown</h2>
+    <div class="dropdown">
+      <button class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown">Red Fruits</button>
+      <ul class="dropdown-menu text-center">
+        <li class="dropdown-item">Apples</li>
+        <li class="dropdown-item">Cherries</li>
+        <li class="dropdown-item">Pomegranate</li>
+        <li class="dropdown-item">Strawberries</li>
+      </ul>
+
+    </div>
+    </div>
+
+    <!--List-->
+      <div class="col-6 p-3 text-start">
+        <div>
+          <h2>Bangladeshi Fruit List</h2>
+          <ul class="list-group">
+            <li class="list-group-item">Ata</li>
+            <li class="list-group-item">Bel</li>
+            <li class="list-group-item">Jam</li>
+            <li class="list-group-item">Tel</li>
+
+          </ul>
+        </div>
+    </div>
+
+    <!--Table-->
+    <div>
+      <div class="container-fluid">
+        <div class="row">
+         <div class="col-12 p-5 text-start">
+           <h2>National Fruits Table</h2>
+           <table class="table  table-striped">
+            <tr class="table table-warning">
+              <td>Bangladesh</td>
+              <td>Jackfruit</td>
+
+            </tr>
+            <tr class="table table-warningr">
+              <td>Russia</td>
+              <td>Apple</td>
+            </tr>
+
+            <tr class="table table-warning">
+              <td>Saudi Arabia</td>
+              <td>Dates</td>
+            </tr>
+
+           </table>
+
+    </div>
+<!--Progress Bar-->
+<div>
+  <div class="container-fluid">
+    <div class="row">
+     <div class="col-12 p-3 text-start">
+      <h2>Progress Bar</h2>
+      <div class="progress" style="height: 80px;">
+        <div class="progress-bar bg-danger" style="width:90%;">
+          I like fruits 90%
+
+
+        </div>
+
+      </div>
+     </div>
+    
+    </div>
+</div>
+
+<!--Pagination-->
+<div>
+  <div class="container-fluid">
+    <div class="row">
+     <div class="col-12 p-3 text-start">
+      <h2>Pagination</h2>
+      <nav>
+        <ul class="pagination ">
+          <li class="page-item "><a href="#" class="page-link">Previous</a>
+          </li>
+
+          <li class="page-item active"><a href="#" class="page-link">1</a>
+          </li>
+
+          <li class="page-item"><a href="#" class="page-link">2</a>
+          </li>
+
+          <li class="page-item"><a href="#" class="page-link">3</a>
+          </li>
+
+          <li class="page-item"><a href="#" class="page-link">Next</a>
+          </li>
+        </ul>
+
+      </nav>
+      </div>
+      </div>
+      </div>
+
+
+
+
+
+
+<script src="js/bootstrap.bundle.js"></script>
 </body>
 </html>
