@@ -1,0 +1,53 @@
+<script>
+
+
+function addTwoNumber(a,b,c=0){ 
+    let num1=a;
+    let num2=b;
+    let num3=c;
+    let sum=num1+num2+num3;
+    document.write(sum+"<br/>") 
+}
+addTwoNumber(3,4)
+addTwoNumber(3,4,5,7)
+
+
+
+
+function addTwoNumber(a,b){
+    let sum=a+b;
+    return a+b;
+}
+let res=addTwoNumber(50,60)+20 
+document.write(res)
+
+
+
+
+(()=>{
+    document.write("I am IIF Function")
+})()
+
+
+(function(){
+document.write("I am IIF Function")
+})()
+
+
+
+
+let myFun=(a,b)=>{
+    let sum=a+b;
+    document.write(sum)
+}
+
+myFun(10,30);
+
+
+
+
+
+let myInline=(a,b)=> document.write(a+b) ;
+myInline(400,500)
+
+</script>

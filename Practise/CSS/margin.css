@@ -1,0 +1,15 @@
+p{
+    line-height:160%;
+    margin:30px 200px 20px 100px;
+    width:180px;
+    height:150px
+    overflow:auto;
+    
+}
+.btn{
+    background-color: green !important;
+    border-radius: 8px;
+    color:beige;
+    padding: 100px 300px 100px 200px;/*Top Right Bottom Left*/
+    margin:80px;
+}

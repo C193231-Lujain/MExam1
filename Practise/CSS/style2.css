@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+
+.myposition{
+    color:red;
+    position:fixed;
+    top:50px;
+    
+}
+.static{
+    color:blue;
+    position:static;
+    
+}
+.absolute{
+    color:yellowgreen;
+    position:absolute;
+    left:150px;
+    right:250px;
+}
+
+.relative{
+    color:orange;
+    position:relative;
+    left:30px;
+}
+
+p{
+    font-size:80px;
+    font-family: "Anton SC", sans-serif; 
+    font-weight: 400;
+    font-style: normal;
+    line-height:normal;
+    letter-spacing: 10px;
+    word-spacing: 80px;
+}
+@font-face {
+    font-family:'own font';
+    src: url("C:\Users\user\Desktop\MERN\Practise\CSS\myfont.ttf");
+}
+h2{
+    font-family:own font;
+}
+.btn{
+    background-color: green !important;
+    border-radius: 8px;
+    color:beige;
+    padding: 20px;
+}
+.btn{
+    background-color: black; /*If important not given then button will be by default black*/
+    border-radius: 8px;
+    color:beige;
+    padding: 20px;
+}
+.btn:hover{
+    background-color: yellow !important; /*Hover also give important*/s
+    border-radius: 8px;
+    color:red;
+    padding: 20px;
+}
+div{
+    width:150px;
+    border:solid red 5px;
+    word-wrap: normal;
+}
+.a{
+    width:150px;
+    border:solid black 5px;
+    word-wrap: break-word;
+}

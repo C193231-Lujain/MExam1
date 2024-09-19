@@ -1,0 +1,21 @@
+.test{
+    display:flex;
+    justify-content:center;
+    background-color: var(--background-color);
+}
+:root{
+    --colorPrimary:blue;
+    --fontprimary:20px;
+    --background-color:yellow;
+    --font-family:Arial;
+    
+}
+p{
+    text-decoration: underline overline line-through;
+    color:var(--colorPrimary);
+    font-size:var(--fontprimary);
+}
+h1{
+    text-decoration: overline;
+    font-family: var(--font);
+}

@@ -1,0 +1,57 @@
+h1{
+    font-size: 80px;
+    color: blue;
+}
+.dotted{
+    border-style:dotted;
+    border-color: red;
+
+}
+
+.dashed{
+    border-style:dashed;
+    border-color: red;
+
+}
+.double{
+    border-style:double;
+    border-color: red;
+
+}
+.solid{
+    border-style:solid;
+    border-color: red;
+
+}
+.groove{
+    border-style:groove;
+    border-color: red;
+
+}
+.ridge{
+    border-style:ridge;
+    border-color: red;
+
+}
+.insert{
+    border-style:inset;
+    border-color: red;
+
+}
+.outset{
+    border-style:outset;
+    border-color: red;
+
+}
+.hidden{
+    border-style:hidden;
+    border-color: red;
+
+}
+.my-div{
+    height:200px;
+    width:200px;
+    border-radius:80px 10px 10px 10px;
+    background-color: red;
+
+}
